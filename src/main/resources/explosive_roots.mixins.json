@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "net.pm.explosive_roots.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"CreeperMixin",
+		"EntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "effect.explosive_roots.spores": "Creeper Spores",
+  "effect.explosive_roots.spores.desc": "You are full of Creeper spores.\nYou might spread them, planting new creepers.",
+  "effect.explosive_roots.spores.description": "You are full of Creeper spores.\nYou might spread them, planting new creepers.",
+
+  "death.attack.spored": "%s had their health drained by creeper spores",
+  "death.attack.spored.player": "%s had their health drained by creeper spores whilst trying to escape %s"
+
+
+}

@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "explosive_roots",
+	"version": "${version}",
+	"name": "Explosive Roots",
+	"description": "A mod changing the beloathed creeper.\nAlso gives them a whole new explosive family.",
+	"authors": [
+		"Paul Marmet"
+	],
+	"contact": {
+	},
+	"license": "ARR",
+	"icon": "assets/explosive_roots/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.pm.explosive_roots.ExplosiveRoots"
+		]
+	},
+	"mixins": [
+		"explosive_roots.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
